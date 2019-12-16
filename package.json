@@ -1,0 +1,24 @@
+{
+  "name": "jwt_example",
+  "version": "1.0.0",
+  "description": "Example using nodejs and jwt, and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecolonb/jwt_example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "express"
+  ],
+  "author": "Edgar Colón",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecolonb/jwt_example/issues"
+  },
+  "homepage": "https://github.com/ecolonb/jwt_example#readme"
+}
