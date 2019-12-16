@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ecolonb/jwt_example/issues"
   },
-  "homepage": "https://github.com/ecolonb/jwt_example#readme"
+  "homepage": "https://github.com/ecolonb/jwt_example#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
 }
