@@ -7,9 +7,9 @@ const path = require('path')
 const jwt = require('jsonwebtoken')
 
 // Obteniendo llaves para firmar el token
-const filePath = path.join(__dirname, '../keys/stage.pem');
+const filePath = path.join(__dirname, '../keys/privatekey.pem');
 const privateKey = readFileSync(filePath, 'utf8');
-
+console.log('privateKey: ', privateKey)
 const timeInSeconds = 1800;
 
 const payload = {
