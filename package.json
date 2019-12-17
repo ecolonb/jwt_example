@@ -4,7 +4,9 @@
   "description": "Example using nodejs and jwt, and Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ecolonb/jwt_example/issues"
   },
-  "homepage": "https://github.com/ecolonb/jwt_example#readme"
+  "homepage": "https://github.com/ecolonb/jwt_example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
